@@ -1,7 +1,7 @@
 // -------------------  App Info  ------------------------
 
 // C - Find the Number
-// Version 1.1.0
+// Version 1.1.1
 // Date: 2021-05-12
 
 // -------------------  App Info  ------------------------
@@ -31,8 +31,6 @@ int main()
 	// printf("\n\nDo you wish to speak your names, or remain mysterious? :O\n(y/n)");
 	// scanf(" %c", &nameQuestion);
 	// if(nameQuestion == 'y') {
-	
-
 	// }
 	// }
 	// while (nameQuestion != 'y' && nameQuestion != 'n');
@@ -146,6 +144,8 @@ int main()
 			}
 		}
 
+		if(num2 < 1 || num2 > 100) printf("\n\nThat guess was way off! The number is between 1 and 100.");
+
 
 		counter++;
 		
@@ -175,16 +175,7 @@ int main()
 
 	printf("Thank you for playing!\nCome back any time :)");
 
-	// Number is smaller, or larger than Player1's
-
-
-	// Player2 you found the number, congrats
-
-
-
-
-
-    // printf("Hello World");
+	
 
     return 0;
 }
