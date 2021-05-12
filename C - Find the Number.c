@@ -1,8 +1,8 @@
 // -------------------  App Info  ------------------------
 
 // C - Find the Number
-// Version 1.1.2
-// Date: 2021-05-12
+// Version 1.1.3
+// Date: 2021-05-13
 
 // -------------------  App Info  ------------------------
 
@@ -56,9 +56,7 @@ int main()
 	do{
 
 	int num1, num2 = 0;
-	int counter = 0;
-	int counterLow = 0;
-	int counterHigh = 0;
+	int counter = 0, counterLow = 0, counterHigh = 0;
 	int gameMode;
 	int maxTries = 1000;
 
@@ -128,9 +126,8 @@ int main()
 		system("clear");
 
 
-		int num2_current;
-		int num2_lower;
-		int num2_higher;
+		int num2_current, num2_lower, num2_higher;
+
 
 
 
